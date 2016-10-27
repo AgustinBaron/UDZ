@@ -1,0 +1,135 @@
+/* content区域开始 */
+.content{
+	width:100%;
+	height: 677px;
+	border-bottom:1px solid #ddd;
+	padding-bottom: 0;
+	background: url(../images/login-bj.jpg) no-repeat center center;
+	position: relative;
+}
+.content-top{
+	width: 100%;
+	overflow: hidden;
+}
+.border1,.border2,.border3,.border4{
+	width: 25%;
+	height: 4px;
+	float: left;
+}
+.border1{
+	background: #ffd533;
+}
+.border2{
+	background: #fc5453;
+}
+.border3{
+	background: #99df3e;
+}
+.border4{
+	background: #0a68da;
+}
+.content-in{
+	width: 704px;
+	height: 430px;
+	position: absolute;
+	left: 50%;
+	margin-top: 80px;
+	margin-left: -350px;
+	background: #fff;
+	opacity: 0.9;
+	overflow: hidden;
+}
+.content-left{
+	float: left;
+	padding: 50px 70px 120px;
+	border-right: 2px solid #C8C8C8;
+	height: 260px;
+}
+.content-left h2{
+	font-size: 24px;
+    color: #666;
+    text-align: center;
+    font-weight: normal;
+}
+.content-left li{
+	margin-top: 25px;
+}
+#user-name,#user-word{
+	width: 260px;
+	padding: 8px 0;
+	line-height: 18px;
+	outline: none;
+	border: 1px solid #e3e3e3;
+	color: #444;
+	text-indent: 1em;
+}
+#user-login{
+	width: 260px;
+	padding: 8px 0;
+	background: #D00B2C;
+	line-height: 24px;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	font-weight: 700;
+	cursor: pointer;
+}
+.forget-word a{
+	position: absolute;
+	left: 335px;
+	top: 236px;
+	color: #666;
+	margin-left: 10px;
+	text-decoration: underline;
+	font-size: 14px;
+}
+.content-left p{
+	color: #666;
+	text-align: center;
+	padding:30px 0 10px 0;
+	font-size: 14px;
+}
+.content-left span{
+	display: inline-block;
+	width: 50px;
+	line-height: 50px;
+	height: 50px;
+	background: url(../images/login-bj-2.png) no-repeat;
+	margin: 0 5px;
+	cursor: pointer;
+}
+#qq-logo{
+	background-position: -167px 0;
+}
+#wechat-logo{
+	background-position: -8px 0;
+}
+#wb-logo{
+	background-position: -86px 0;
+}
+#rr-logo{
+	background-position: -242px 0;
+}
+.content-right{
+	float: left;
+	padding-top: 130px;
+	text-align: center;
+}
+.content-right-in{
+	float: left;
+	padding: 40px 25px;
+	width: 250px;
+	color: #666;
+}
+.content-right-in p{
+	font-size: 18px;
+}
+.content-right-in div{
+	font-size: 18px;
+	padding: 30px;
+	cursor: pointer;
+}
+.content-right-in div a{
+	color: #666;
+	text-decoration: underline;
+}

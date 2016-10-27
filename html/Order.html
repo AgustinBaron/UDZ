@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>订单提交 - 优定制(UDZ.COM) - 全球领先的C2B定制电商</title>
+	<link rel="stylesheet" href="../css/common.css" />
+	<link rel="stylesheet" href="../css/Order.css" />
+	<script src="../js/jquery-1.12.4.min.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/tools.js"></script>
+	<script src="../js/Order.js"></script>
+	<script src="../js/jquery.cookie.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="header-top">		
+			<div class="header-nav">
+				<ul id="">
+					<li><a href="../index.html">首页</a></li>
+					<li class="Register"><a href="Register.html">注册</a></li>
+					<li><a class="login" href="login.html">登录</a></li>
+					<li><a href="Order.html">我的订单</a></li>
+					<li class="cart"><a href="Cart.html"><span></span>购物车</a></li>
+					<li><a class="active" href="#">开始设计</a></li>
+					<li class="seller"><a href="#">卖家中心<span></span></a></li>
+					<li class="serve"><a href="#">客户服务<span></span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="header-con">
+			<div class="Seller-central">
+				<ul>
+					<li><a href="javascript:;">店铺管理</a></li>
+					<li><a href="javascript:;">活动管理</a></li>
+					<li><a href="javascript:;">数据统计</a></li>
+					<li><a href="javascript:;">营销管理</a></li>
+					<li><a href="javascript:;">主题管理</a></li>
+					<li><a href="javascript:;">账户设置</a></li>
+					<li><a href="javascript:;">粉丝管理</a></li>
+					<li><a href="javascript:;">推荐好友</a></li>
+					<li><a href="javascript:;">了解UDZ</a></li>
+				</ul>
+			</div>
+			<div class="customer-serve">
+				<ul>
+					<li><a href="javascript:;">买家问题</a></li>
+					<li><a href="javascript:;">卖家问题</a></li>
+					<li><a href="javascript:;">联系客服</a></li>
+				</ul>
+			</div>
+			<div class="search-con">
+				<ul>
+					<li><a href="javascript:;">搜店铺</a></li>
+					<li><a href="javascript:;">搜商品</a></li>
+				</ul>
+			</div>
+			<div class="log">
+				<a href="../index.html"><img src="../images/logo.jpg" alt="" /></a>
+			</div>
+			<div class="search">
+				<div class="search-choose">
+					<a href="#">搜商品</a> 
+					<span></span>
+				</div>
+				<div class="search-in">
+					<input id="search-txt" type="text" value="搜索商品或店铺"/>
+					<input id="search-btn" type="submit" value=""/>
+				</div>
+			</div>
+			<ul class="search-out">
+				<li><a href="javascript:;">动漫</a></li>
+				<li><a href="javascript:;">篮球</a></li>
+				<li><a href="javascript:;">美剧</a></li>
+				<li><a href="javascript:;">足球</a></li>
+				<li><a href="javascript:;">哲学</a></li>
+				<li><a href="javascript:;">dota</a></li>
+				<li><a href="javascript:;">火影</a></li>
+			</ul>
+			<div class="erweima">
+				<img src="../images/erweima.jpg" alt="" />
+				<p>手机逛UDZ</p>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="content-top">
+			<div class="border1"></div>
+			<div class="border2"></div>
+			<div class="border3"></div>
+			<div class="border4"></div>
+		</div>
+		<div class="content-in">
+			<form action="">
+				<div class="order-address">
+					<h2 class="title">收货地址:</h2>
+					<ul class="new-address">
+						<li>
+							<span class="address-info">姓名:</span>
+							<input id="consigner" placeholder="请填写收件人姓名" type="text" />
+						</li>
+						<li>
+							<span class="address-info">电话:</span>
+							<input id="phone-number" placeholder="请填写手机号" type="text" />
+							<span class="address-info" style="margin-left:15px;">备用电话:</span>
+							<input placeholder="请填写手机号(选填)" type="text" />
+						</li>
+						<li>
+							<span class="address-info" style="float:left;">地址:</span>
+							<div class="select-con"></div>
+							<div class="select-con"></div>
+							<div class="select-con"></div>
+						</li>
+						<li>
+							<input placeholder="请填写详细地址" class="address-all" type="text" />
+						</li>
+						<li>
+							<span class="address-info">邮编:</span>
+							<input placeholder="请填写邮政编码" type="text" />
+						</li>
+					</ul>
+				</div>
+				<h2 class="title">商品信息：</h2>
+				<div class="order-list">
+					<ul id="shop-detail">
+						<li class="goods-info">商品信息</li>
+						<li class="goods-price">单价(元)</li>
+						<li class="goods-number">数量</li>
+						<li class="goods-total">小计(元)</li>
+					</ul>
+					<div class="store-in">
+						<div class="store-title">
+							店铺 : <a href="javascript:;"></a>
+						</div>
+					</div>
+					<div class="goods-in">
+						<div class="goods-activties">
+							活动 ：<a href="javascript:;"></a>
+						</div>
+						<ul class="order-detail">
+							<li class="goods-info">
+								<a href="javascript:;"><img src="" alt="" /></a>
+								<p class="pd"></p>
+							</li>
+							<li class="goods-price"></li>
+							<li class="goods-number"></li>
+							<li class="goods-total"></li>
+						</ul>
+						<div class="ps">
+							备注信息 ：<input class="ps-in" placeholder="请输入备注" type="text" />
+							<span>运费：¥ <i>0</i></span>
+						</div>
+						<div class="discount">
+							优惠卷 ：<span class="use-discount">使用优惠券</span>以上共1个活动，合计：¥ 
+							<span class="manney">1580 </span> ( 含运费¥ <span class="post"> 0 </span>)
+						</div>
+					</div>
+				</div>
+				<h2 class="title">送货时间：</h2>
+				<select name="" id="">
+					<option value="1">随时派送，本主已经等不及了！</option>
+					<option value="2">休息日派送，辛苦快递GG！</option>
+					<option value="3">工作日派送，周末不能接收哦！</option>
+				</select>
+				<div class="remind">
+					<span class="remind-left">提醒 : </span>
+					<p class="fr1">我们将会把您的要求记录在快递面单上，并要求快递公司按照您的指定时间进行配送。</p>
+					<p class="fr2">但是不同快递公司的配送时间较为灵活，无法100%保证在您的理想时段内送达，若发生没有按您指定时间配送的情况，请您谅解！</p>
+				</div>
+				<div class="more">
+					<span>+更多选项</span>
+				</div>
+				<div class="clicknum">1</div>
+				<div class="receipt-info">
+					<h2 class="title">发票信息：</h2>
+					<div class="choose-bj"></div>
+					<label for="">我需要发票 (使用优惠券后，发票按照实际支付金额开取)</label>
+				</div>
+				<div class="receipt-detail">
+					<div class="receipt-detail-in">
+						<div style="float:left;overflow:hidden;">
+							<div class=" choose-bj2 "></div>
+							<label class="receipt-people for="">个人</label>
+						</div>
+						<div style="float:left;overflow:hidden;width:800px;">
+							<div class=" choose-bj3"></div>
+							<label class="receipt-company" for="">公司</label>
+							<input type="text" id="company" placeholder="请填写公司名称" />
+						</div>
+						
+					</div>
+				</div>
+				<ul class="order-pay">
+					<li><span>总价 ：</span> <i class="total-price">¥ 1580</i></li>
+					<li><span>运费 ：</span> <i>¥ 0</i></li>
+					<li><span>实付 ：</span> <i class="should-pay">¥ 1580</i></li>
+				</ul>
+				<div class="order-submit">
+					<div id="sure">确定提交</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="footer-in">
+			<div id="back-top">
+				<img src="../images/btn.jpg" alt="" />
+			</div>
+			<div class="footer-left">
+				<div class="log">
+					<a href="index.html"><img src="../images/logo.jpg" alt="" /></a>
+				</div>
+				<p class="footer-txt">Copyright ©udz.com. All Rights Reserved. </p>
+				<p>优定制科技（北京）有限公司</p>
+				<p> 京ICP备14053608号 京公网安备号 11010802017620</p>
+			</div>
+			<div class="footer-right">
+				<div class="abou-UDZ customer business authority">
+					<div class="footer-title">关于优定制</div>
+					<ul>
+						<li><a href="javascript:;">关于我们</a></li>
+						<li><a href="javascript:;">最新动态</a></li>
+						<li><a href="javascript:;">招聘信息</a></li>
+						<li><a href="javascript:;">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="abou-UDZ customer business authority">
+					<div class="footer-title">消费者权益</div>
+					<ul>
+						<li><a href="javascript:;">消费者服务</a></li>
+						<li><a href="javascript:;">意见反馈</a></li>
+						<li><a href="javascript:;">手机版下载</a></li>
+					</ul>
+				</div>
+				<div class="abou-UDZ customer business authority">
+					<div class="footer-title">商家</div>
+					<ul>
+						<li><a href="javascript:;">如何开始</a></li>
+						<li><a href="javascript:;">商家问题</a></li>
+					</ul>
+				</div>
+				<div class="abou-UDZ customer business authority">
+					<div class="footer-title">权威认证</div>
+					<ul>
+						<a href="javascript:;"><img src="../images/authority1.jpg" alt="" /></a>
+						<a href="javascript:;"><img src="../images/authority2.jpg" alt="" /></a>
+						<a href="javascript:;"><img src="../images/authority3.jpg" alt="" /></a>
+					</ul>
+				</div>
+			</div>			
+		</div>
+	</div>
+	<div id="pop"></div>
+	<div class="order-goods">
+		<h1 class="order-title">请确认订单信息</h1>
+		<p class="consigner">收货人 ：<span>李川</span></p>
+		<p>联系电话 ：<span>13032889239</span> 备用电话：<span>110110110110</span></p>
+		<p>送货地址 ：<span>四川省成都市紫荆东路57号核动力宿舍三单元612</span></p>
+		<p>邮编 ：<span>638500</span></p>
+		<p id="order-goods-detail">商品详情 ：<span class="one"></span> 数量<span class="two"></span></p>
+		<p>送货时间 ：<span>李川</span></p>
+		<p>发票详情 ：<span>李川</span></p>
+		<p class="order-goods-sure">请确认订单信息</p>
+	</div>
+</body>
+</html>

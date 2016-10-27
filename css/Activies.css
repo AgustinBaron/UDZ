@@ -1,0 +1,230 @@
+.content-info{
+	width:1200px;
+	padding:0 20px;
+	margin:0 auto;
+}
+.all-classify{
+    color: #333;
+    line-height: 40px;
+    height: 40px;
+}
+.all-classify span{
+	margin-left: 10px;
+}
+.classify-con{
+	line-height: 30px;
+    border-top: 1px solid #eee;
+    font-size: 12px;
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.classify-con1,.classify-con1{
+	overflow: hidden;
+}
+.classify-con .title{
+    width: 96px;
+    float: left;
+    text-align: center;
+    color: #999;
+    padding: 5px 0;
+}
+.classify-nav,.hot-tab{
+    background: #fafafa;
+    width: 1100px;
+    float: right;
+    padding: 5px 0;
+}
+.classify-nav li,.hot-tab li{
+	float: left;
+}
+.classify-nav a,.hot-tab a{
+	float: left;
+	display: block;
+	padding:0 15px;
+	color:#000;
+	transition: all .3s linear;
+}
+.classify-nav a:hover,.hot-tab a:hover{
+	color:red;
+	text-decoration: underline;
+}
+.hot-tab{
+	border-top:1px solid #eee;
+}
+.search-type{
+    height: 44px;
+    color: #000;
+    background: #fafafa;
+    margin-top: 15px;
+    position: relative;
+}
+.search-type li{
+	float: left;
+}
+.search-type li a{
+	display: block;
+    padding: 0 30px;
+    border: 1px solid #fafafa;
+    float: left;
+    line-height: 42px;
+    color:#000;
+    font-size:14px;
+}
+.search-type .active{
+    border: 1px solid #f2f2f2;
+    color: #fc5454;
+    background: #fff;
+}
+.search-type span{
+	display: block;
+	width:14px;
+	height:14px;
+	float: left;
+	background: url(../images/bjsmall.jpg) no-repeat;
+}
+#search-price{
+	background-position: 0 -90px;
+	position: absolute;
+	left:360px;
+	top:15px;
+}
+#search-post{
+	background-position: 0 -112px;
+	position: absolute;
+	left:455px;
+	top:17px;
+}
+.content-goods{
+	padding:15px 0;
+	overflow: hidden;
+}
+.products{
+	width: 210px;
+	padding: 0 14px;
+	float: left;
+    border: 1px solid #eee;
+    line-height:30px;
+	position: relative;
+	margin-top: 15px;
+}
+.products dl{
+	width: 210px;
+	height: 215px;
+}
+.products dt img{
+	height: 170px;
+	position: absolute;
+	left: 34px;
+	top: 15px;
+}
+.products dd{
+	width: 210px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #000;
+	font-size: 14px;
+	text-align: left;
+	letter-spacing: 1px;
+	position: absolute;
+	left: 12px;
+	top: 185px;
+}
+.border-x{
+	height: 6px;
+	width: 210px;
+	background: #ccc;
+	border-radius: 6px;
+	position: absolute;
+	left: 12px;
+	top: 220px;
+}
+.border-x1{
+	height: 6px;
+	background: #3bcb74;
+	border-radius: 6px;
+	position: absolute;
+	left: 12px;
+	top: 220px;
+}
+.date{
+	margin-top:15px;
+	text-align: left;
+	overflow: hidden;
+}
+.date .price{
+	float: left;
+	color: #ff5555;
+}
+.date .sold{
+	float: left;
+	margin-left: 80px;
+}
+.date .goal{
+	float: right;
+	color: #aba9aa;
+}
+.products-seller{
+	width: 160px;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.products-seller img{
+	height: 20px;
+	vertical-align: middle;
+}
+.products-seller span{
+	color: #000;
+	margin-left: 5px;
+}
+.pages{
+    margin-top: 35px;
+    text-align: center;
+    overflow: hidden;
+}
+#pages{
+	display: none;
+}
+.pages ul{
+	float: left;
+	margin-left:350px;
+}
+.pages li{
+	float: left;
+}
+.pages .active{
+	background:#000;
+	color:#fff;
+}
+.pages li a{
+	display: block;
+	float: left;
+    background: #fff;
+    border: 1px solid #333;
+    color: #333;
+    width: 28px;
+    height: 28px;
+    font-size:14px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 15px;
+    border-radius:5px;
+}
+.pages li a:hover{
+	text-decoration:underline;
+}
+.pages .prev{
+	background:url(../images/bjsmall.jpg) no-repeat 0 -151px;
+	border:none;
+	display:none;
+}
+.pages .next{
+	background:url(../images/bjsmall.jpg) no-repeat 0 -180px;
+	border:none;
+}
+.footer{
+	border-top:1px solid #ccc;
+}
+#back-top{
+	display: block;
+}

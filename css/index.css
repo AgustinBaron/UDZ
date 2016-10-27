@@ -1,0 +1,468 @@
+.banner{
+	width:100%;
+	height:450px;
+	position: relative;
+	cursor:pointer;
+}
+#page{
+	width:8%; 
+	height:20px; 
+	padding:5px 12px; 
+	border-radius:15px; 
+	position:absolute; 
+	left: 46%;
+	bottom:0; 
+	background: rgba(0,0,0,.1);
+	display: none;
+	z-index: 2;
+}
+#page div{
+	width:20px;
+	height:20px;
+	border-radius:10px; 
+	margin:0 5px; 
+	float:left; 
+	background:white;
+	cursor: pointer;
+}
+#page .active{
+	background:red;
+}
+/* .pic-lis1,.pic-lis2,.pic-lis3{
+	width:100%;
+	height:450px;
+	position: absolute;
+	opacity:0;
+} */
+#uls div{
+	width:100%;
+	height:450px;
+	position: absolute;
+	opacity:0;
+}
+ #uls .pic-lis1{
+	background:url(../images/banner3.jpg) no-repeat center center;
+	opacity: 1;
+}
+.pic-lis2{
+	background:url(../images/banner2.jpg) no-repeat center center;
+}
+.pic-lis3{
+	background:url(../images/banner1.jpg) no-repeat center center;
+}
+.content-info{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	overflow: hidden;
+}
+.bt{
+	margin: 50px 0 16px 0;
+	height: 24px;
+	padding: 0 480px;
+	background: url(../images/con-bt-bj.jpg) no-repeat left center;
+}
+.bt h3{
+	line-height: 24px;
+	font-size: 24px;
+}
+.bt h3 span{
+	font-weight: 500;
+}
+.topics{
+	height: 252px;
+	padding:6px ;
+	/* box-shadow: 1px 0 1px 0 #ccc; */
+}
+.movie{
+	width: 672px;
+	height: 252px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+.movie img{
+	height: 252px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.movie-opactiy{
+	width: 672px;
+	height: 30px;
+	background: #000;
+	opacity: 0.2;
+	filter: alpha(opacity=20);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.movie-z-index{
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.products{
+	width: 234px;
+	height: 252px;
+	padding: 0 12px;
+	float: left;
+	text-align: center;
+	position: relative;
+	box-shadow: 2px 0 2px #dedede;
+}
+.products dl{
+	width: 234px;
+	height: 165px;
+}
+.products dt img{
+	height: 150px;
+	overflow: hidden;
+	position: absolute;
+	left: 44px;
+	top: 0;
+}
+.products dd{
+	width: 234px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #000;
+	font-size: 14px;
+	text-align: left;
+	letter-spacing: 1px;
+	position: absolute;
+	left: 12px;
+	top: 150px;
+}
+.border-x{
+	height: 6px;
+	width: 224px;
+	background: #ccc;
+	border-radius: 6px;
+	position: absolute;
+	left: 12px;
+	top: 177px;
+}
+.border-x1{
+	height: 6px;
+	width: 0;
+	background: #3bcb74;
+	border-radius: 6px;
+	position: absolute;
+	left: 12px;
+	top: 177px;
+}
+.date{
+	margin: 24px 0 10px 0;
+	text-align: left;
+	overflow: hidden;
+}
+.date .price{
+	float: left;
+	color: #ff5555;
+}
+.date .sold{
+	float: left;
+	margin-left: 90px;
+}
+.date .goal{
+	float: right;
+	color: #aba9aa;
+}
+.products-seller{
+	width: 160px;
+	text-align: left;
+}
+.products-seller img{
+	height: 20px;
+}
+.products-seller span{
+	color: #000;
+	margin-left: 5px;
+}
+.activties{
+	height: 252px;
+	padding:6px 6px 20px 6px ;
+}
+.activities-left{
+	width: 150px;
+	float: left;	
+}
+.games{
+	height: 48px;
+	line-height: 48px;
+	font-size: 24px;
+	color: #fff;
+	padding: 0 5px;
+	text-align: center;
+	background: #e54d42;
+}
+.hot{
+	height: 208px;
+	padding: 0 5px;
+	background: #e85f55;
+}
+.hot h2{
+	padding: 10px 0;
+	font-size: 15px;
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: 100;
+}
+.hot .hot-game{
+	display: inline-block;
+	padding: 0 14px;
+	height: 28px;
+	margin: 5px 5px;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	background: #ea6f67;
+	border-radius: 5px;
+	transition: all .3s linear;
+}
+.hot a:hover{
+	color: #e54d42;
+	background: #fff;
+}
+.activities-right1{
+	border: 2px solid #f4f4f4;
+	transition: all .3s linear;
+	border-left: none;
+	float: left;
+	overflow: hidden;
+}
+.sports{
+	background: #ffc300;
+}
+.hot-sports{
+	background: #fec919;
+}
+.hot-sports a:hover{
+	color: #ffc300;
+}
+.hot-sports .hotsports{
+	background: #ffce35;
+}
+.activities-right2{
+	border: 2px solid #f4f4f4;
+	border-left: none;
+}
+.idea{
+	background: #38cb73;
+}
+.hot-idea{
+	background: #4ccf81;
+}
+.hot-idea a:hover{
+	color: #38cb73;
+}
+.hot-idea .hotidea{
+	background: #5fd48e;
+}
+.activities-right3{
+	border: 2px solid #f4f4f4;
+	border-left: none;
+}
+.sports2{
+	background: #3a99d9;
+}
+.hot-sports2{
+	background: #4ea3dc;
+}
+.hot-sports2 a:hover{
+	color: #3a99d9;
+}
+.hot-sports2 .hotsports2{
+	background: #60ade1;
+}
+.activities-right4{
+	border: 2px solid #f4f4f4;
+	border-left: none;
+}
+/* content结束 */
+/* 关于我们区域开始 */
+.about-us{
+	width: 100%;
+	background: #f8f8f8;
+	border-bottom: 1px solid #dedede;
+}
+.about-us-in{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 37px 20px 50px 20px;
+	overflow: hidden;
+}
+.about-info-left{
+	width: 570px;
+	height: 320px;
+	float: left;
+}
+.about-info-left video{
+	width: 100%;
+	height: 100%;
+}
+.about-info-left video:hover {
+    transition: color .4s,border-color .4s,box-shadow .4s;
+}
+.about-info-right{
+	width: 510px;
+	float: right;
+}
+.about-info-right h1{
+	font-size: 24px;
+	color: #333;
+	font-weight: 700;
+}
+.about-info-right p{
+	font-size: 18px;
+	color: #333;
+	line-height: 30px;
+	padding-top: 20px;
+}
+.about-info-right a{
+	display: block;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	background: #4fc0e8;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	margin-top: 30px;
+	transition: all .3s linear;
+}
+.about-info-right a:hover{
+	background: #11b4eb;
+}
+/* 关于我们区域结束 */
+
+/* 底部隐藏功能按钮样式 */
+.company{
+	width: 100%;
+	height: 70px;
+	background-color: #5A5A5A;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	position: fixed;
+	left: 0;
+	bottom: 20px;
+}
+.company-in{
+	width: 1000px;
+	height: 40px;
+	padding: 15px 10px;
+	margin: 0 auto;
+	background: #333333;
+	display: block;
+}
+.open{
+	float: left;
+	height: 10px;
+	color: #d6d6d6;	
+	cursor: pointer;
+	display: block;
+}
+#baiducredit{
+	height: 10px;
+	padding: 15px 5px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #d6d6d6;	
+}
+.baiducredit{
+	width: 60px;
+	margin-left: 5px;
+	float: left;
+	border-right: 1px solid #ccc;
+	display: none;
+}
+.company-name{
+	width: 180px;
+	height: 40px;
+	margin-left: 15px;
+	float: left;
+	border-right: 1px solid #ccc;
+	display: none;
+}
+.company-name span{
+	color: #d6d6d6;
+	font-size: 13px;
+}
+.company-name p{
+	color: #d6d6d6;
+	padding: 8px 0 0 0;
+}
+.total-time{
+	width: 135px;
+	height: 40px;
+	margin-left: 15px;
+	float: left;
+	border-right: 1px solid #ccc;
+	display: none;
+}
+.total-time span{
+	color: #fff;
+	line-height: 20px;
+}
+.total-time a{
+	color: #d6d6d6;
+}
+.total-time a:hover{
+	text-decoration: underline;
+}
+.real-name{
+	width: 130px;
+	height: 20px;
+	padding: 10px 0;
+	margin-left: 15px;
+	float: left;
+	display: none;
+}
+.real-name p{
+	color: #d6d6d6;
+}
+.company-search{
+	height: 30px;
+	margin-top: 5px;
+	float: left;
+	border: 1px solid #ccc;
+	background: #fff;
+	display: none;
+}
+.company-search-txt{
+	width: 192px;
+	height: 30px;
+	float: left;
+	padding-left: 5px;
+	outline: none;
+	border: none;
+}
+.company-search-btn{
+	width: 30px;
+	height: 30px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	background: #fff url(../images/company-5.jpg) no-repeat center center;
+}
+.pack-up{
+	display: block;
+	float: right;
+	height: 10px;
+	padding: 15px 0;
+	line-height: 10px;
+	color: #d6d6d6;	
+	display: none;
+}
+.pack-up:hover{
+	text-decoration: underline;
+}
+

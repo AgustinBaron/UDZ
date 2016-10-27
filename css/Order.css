@@ -1,0 +1,369 @@
+.content{
+	width:100%;
+	border-bottom:1px solid #ddd;
+	padding-bottom: 0;
+}
+.content-top{
+	width: 100%;
+	overflow: hidden;
+}
+.border1,.border2,.border3,.border4{
+	width: 25%;
+	height: 4px;
+	float: left;
+}
+.border1{
+	background: #ffd533;
+}
+.border2{
+	background: #fc5453;
+}
+.border3{
+	background: #99df3e;
+}
+.border4{
+	background: #0a68da;
+}
+.content-in{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 30px 20px 80px;
+	overflow: hidden;
+}
+.title{
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	color: #444;
+	font-weight: normal;
+}
+.new-address{
+	color: #444;
+	font-size: 14px;
+}
+.new-address li{
+	padding: 14px 0;
+	overflow: hidden;
+}
+.address-info{
+	display: inline-block;
+	padding-right: 15px;
+	line-height: 30px;
+	text-align: left;
+}
+.new-address input{
+	line-height: 18px;
+	padding: 6px 5px;
+	width: 200px;
+	border: 1px solid #e3e3e3;
+	outline: 0;
+}
+.select-con{
+	width: 212px;
+	height: 36px;
+	background: #F5F5F5;
+	float: left;
+	border-radius: 5px;
+	margin-right: 15px;
+	border: 1px solid #aaa;
+	cursor: pointer;
+}
+.new-address .address-all{
+	width: 654px;
+	margin-left: 45px;
+}
+.title{
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+
+#shop-detail{
+	height: 50px;
+	line-height: 50px;
+	color: #444;
+	font-size: 16px;
+	background: #F6F6F8;
+}
+#shop-detail li{
+	float: left;
+}
+.goods-info{
+	width: 40%;
+	text-align: center;
+}
+.goods-price,.goods-number,.goods-total{
+	width: 20%;
+	text-align: center;
+}
+.store{
+	margin-bottom: 20px;
+}
+.store-title{
+	padding: 10px 0;
+	background: #fff;
+	border-bottom: 1px dashed #eee;
+	font-size: 16px;
+}
+.store-title a,.goods-activties a{
+	color: #019FF1;
+}
+.store-title a:hover,.goods-activties a:hover{
+	text-decoration: underline;
+}
+.goods-activties{
+	padding: 8px 0 0;
+	font-size: 14px;
+	color: #666;
+	margin-left: 40px;
+}
+.order-detail{
+	padding: 5px 0;
+	line-height: 40px;
+	text-align: center;
+	overflow: hidden;
+	color: #666;
+}
+.order-detail li{
+	float: left;
+}
+.goods-info img{
+	width: 40px;
+	float: left;
+	margin-left: 30px;
+}
+.goods-info p{
+	font-size: 14px;
+	color: #a7a7a7;
+	float: left;
+}
+.ps{
+	padding: 10px 40px 15px;
+	line-height: 30px;
+	color: #666;
+	font-size: 14px;
+}
+.ps-in{
+	width: 400px;
+	height: 20px;
+	padding: 3px;
+	line-height: 20px;
+	outline: 0;
+}
+.ps span{
+	float: right;
+	margin-right: 50px;
+}
+.ps i{
+	font-style: normal;
+	color: red;
+}
+.discount{
+	background: #f3f7ff;
+	padding: 20px 15px;
+	line-height: 30px;
+	color: #666;
+	font-size: 14px;
+}
+.use-discount{
+	width: 110px;
+	height: 30px;
+	display: inline-block;
+	border: 1px solid #e3e3e3;
+	background: #fff;	
+	margin-right: 20px;
+	letter-spacing: 1px;
+	border-radius: 4px;
+	text-align: center;
+}
+.manney,.post{
+	color: red;
+}
+select{
+	border: 1px solid #ddd;
+	height: 34px;
+	line-height: 34px;
+	padding: 2px 5px;
+	outline: 0;
+	color: #666;
+}
+.remind{
+	margin-top: 10px;
+	overflow: hidden;
+	color: #444;
+	font-size: 14px;
+}
+.remind-left{
+	float: left;
+	color: red;
+	letter-spacing: 1px;
+}
+.remind p{
+	float: left;
+	line-height: 22px;
+}
+.fr1{
+	margin-left: 10px;
+}
+.fr2{
+	margin-left: 50px;
+}
+.more{
+	margin-top: 30px;
+	cursor: pointer;	
+}
+.more span{
+	font-size: 14px;
+	color: #666;
+}
+.clicknum{
+	display:none;
+}
+.receipt-info{
+	color: #666;
+	font-size: 14px;
+	display:none;	
+}
+.choose-bj{
+	width: 25px;
+	height: 30px;
+	background: url(../images/regsiter-bj.png) no-repeat 2px 4px;
+	float: left;
+	cursor: pointer;
+}
+.choose-bj:hover,.choose-bj label:hover{
+	background: url(../images/regsiter-bj.png) no-repeat -23px 4px;
+}
+.receipt-info label{
+	line-height: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.receipt-detail{
+	margin-top: 10px;
+}
+.receipt-detail-in{
+	line-height:35px;
+	overflow: hidden;
+	display:none;
+}
+.choose-bj2{
+	width: 25px;
+	height: 30px;
+	background: url(../images/regsiter-bj.png) no-repeat;
+	float: left;
+	cursor: pointer;
+	background-position: -167px 4px;
+	margin-right:5px;
+}
+.choose-bj3{
+	width: 25px;
+	height: 30px;
+	background: url(../images/regsiter-bj.png) no-repeat;
+	float: left;
+	cursor: pointer;
+	background-position: -119px 4px;
+	margin:0 5px 0 15px;
+}
+.receipt-detail-in label{
+	cursor:pointer;
+	font-size:14px;
+	color:#444;
+	line-height:10px;
+}
+#company{
+    line-height: 18px;
+    padding: 6px 4px;
+    width: 60%;
+    margin-left:15px;
+    outline:0;
+    border:1px solid #e3e3e3;
+    display:none;
+}
+.order-pay{
+	margin-top: 30px;
+	font-size: 24px;
+	color: #444;
+}
+.order-pay li{
+	padding: 5px 0;
+}
+.order-pay span{
+	margin-left: 1000px;
+}
+.order-pay i{
+	float: right;
+	font-style: normal;
+	margin-right: 5px;
+}
+.order-submit{
+	margin-top: 30px;
+	overflow: hidden;
+}
+#sure{
+	width: 110px;
+	cursor: pointer;
+	background: #fc5454;
+	border: none;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 2px;
+	line-height: 44px;
+	text-align: center;
+	padding: 2px 45px;
+	float: right;
+	transition: all .3s linear;
+}
+#sure:hover{
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+.order-goods{
+	padding:20px 40px;
+	text-align:center;
+	width:450px;
+	height:340px;
+	background:#fff;
+	margin:0 auto;
+	font-weight:600;
+	color:#666;
+	font-size:16px;
+	position: fixed;
+	left:30%;
+	bottom:30%;
+	display:none;
+	z-index: 3;
+}
+.order-goods p{
+	line-height:30px;
+}
+.consigner{
+	margin-top:20px;
+}
+#pop{
+	width:100%;
+	height:1900px;
+	background:#000;
+	position: absolute;
+	left:0;top:0;
+	z-index:2;
+	opacity:.2;
+	filter:alpha(opacity=20);
+	display:none;
+}
+.order-goods-sure{
+	border:1px solid #e3e3e3;
+	color:#fff;
+	padding:10px 40px;
+	display:inline-block;
+	margin-top:20px;
+	background:#fc5454;
+	cursor:pointer;
+	border-radius: 10px;
+	transition: all .3s linear;
+}
+.order-goods-sure:hover{
+	opacity:0.8;
+}
